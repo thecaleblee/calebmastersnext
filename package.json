@@ -1,0 +1,32 @@
+{
+  "name": "calebmastersnext",
+  "version": "1.0.0",
+  "description": "Obligatory portfolio for Caleb Masters",
+  "main": "index.js",
+  "homepage": "/react",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecaleblee/calebmastersnext.git"
+  },
+  "keywords": [
+    "Developer",
+    "Portfolio"
+  ],
+  "author": "Caleb Masters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecaleblee/calebmastersnext/issues"
+  },
+  "dependencies": {
+    "next": "10.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "create-next-app": "^10.2.2"
+  }
+}
