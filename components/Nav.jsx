@@ -44,14 +44,14 @@ export default function Nav(props) {
         <ul className="tech" aria-hidden="true">
           <li>
             <Href
-              href="/"
+              href="https://calebmasters.dev/"
               al="Change Website Tech Stack to: HTML/CSS/JS"
               >HTML/CSS/JS
             </Href>
           </li>
           <li>
             <Href
-              href="https://react.calebmasters.dev/"
+              href="/"
               al="Change Website Tech Stack to: React/Next.js"
               style={'active'} 
               >React/Next.js
