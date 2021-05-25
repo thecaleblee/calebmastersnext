@@ -17,7 +17,6 @@ export default function Recent(props) {
    */
   const { id, heading, cards = [], children } = props;
 
-  console.log("Recent", cards);
 
   return (
     <Container id={id}>
