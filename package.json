@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Obligatory portfolio for Caleb Masters",
   "main": "index.js",
-  "homepage": "/react",
   "private": true,
   "scripts": {
     "dev": "next dev",
