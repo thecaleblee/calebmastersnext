@@ -53,7 +53,7 @@ export default function Nav(props) {
             <Href
               href="/"
               al="Change Website Tech Stack to: React/Next.js"
-              style={'active'} 
+              addClass={'active'} 
               >React/Next.js
             </Href>
           </li>
