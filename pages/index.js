@@ -40,6 +40,7 @@ export default function Home({ data }) {
         id={'skills'}
         heading={"Skills"}
         subheading={"From design to pixel perfect & deployed"}
+        al="Skill Level"
         skillSet={skillSet}
       />
       <Resume

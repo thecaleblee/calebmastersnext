@@ -639,7 +639,6 @@ article + article {
       );
       color: var(--main-text);
       border-radius: 5px 4px 4px 5px;
-      content: var(--skill-text);
       text-align: right;
       position: absolute;
       padding-right: 1rem;
@@ -647,7 +646,6 @@ article + article {
       bottom: 0;
       right: 0;
       left: 0;
-      width: var(--percent);
       height: 100%;
       z-index: -1;
     }
