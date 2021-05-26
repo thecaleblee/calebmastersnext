@@ -19,7 +19,7 @@ export default function Home({ data }) {
     details = {},
     recentWork = {},
     skillSet = {},
-    resume = {},
+    resumeContent = {},
   } = data;
 
   return (
@@ -43,10 +43,7 @@ export default function Home({ data }) {
         al="Skill Level"
         skillSet={skillSet}
       />
-      <Resume
-        id={'resume'}
-        
-      />
+     
     </Layout>
   );
 }

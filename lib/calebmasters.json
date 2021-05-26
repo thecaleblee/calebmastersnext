@@ -128,12 +128,14 @@
       ]
     }
   ],
-  "Resume": {
+  "resumeContent": {
     "title": "Caleb Masters",
+    "downloadText": "download resumé pdf",
     "downloadUrl": "/public/cmresume2021.pdf",
     "contactText": "Contact via Linkedin",
     "urlText": "linkedin.com/in/caleb-masters-atx/",
     "url": "https://www.linkedin.com/in/caleb-masters-atx/",
+    "al": "External link to Linkedin.com profile",
     "location": "Austin, TX.",
     "Summary": "Frontend engineer with 10+ years experience building pixel-perfect, component based, mobile first, conversion-generating web experiences. Natural propensity toward community building, curiosity driven technical exploration, and problem solving. Hobby collector.",
     "Experience": [
