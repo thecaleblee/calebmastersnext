@@ -1,3 +1,5 @@
+import Container from "./Container";
+
 export default function Resume(props) {
   const {
     id,
@@ -5,13 +7,9 @@ export default function Resume(props) {
   } = props;
 
   return (
-    <>
-      <section id={id}>
-        <div className={'container'}>
-          {children}
-        </div>
-      </section>
-    </>
+    <Container id={id}>
+      {children}
+    </Container>
   )
 };
 
