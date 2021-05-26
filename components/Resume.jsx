@@ -1,3 +1,4 @@
+import React from "react";
 import Container from "./Container";
 
 export default function Resume(props) {
@@ -19,6 +20,7 @@ export default function Resume(props) {
     al = "",
     location = "",
     summary = "",
+    experienceTitle = "",
     experience = []
   } = content;
 
@@ -58,6 +60,31 @@ export default function Resume(props) {
             {location}
           </p>
         </header>
+        <section>
+          <h3>Summary</h3>
+          <p>{summary}</p>
+        </section>
+        <section>
+          <h3>{experienceTitle}</h3>
+          {React.Children.toArray(experience.map((job) => {
+            const {
+              company,
+              dates,
+              position,
+              responsibilities = []
+            } = job;
+
+            return(
+              <>
+                <h4>{company}<span aria-label={`Employed from ${dates}`}>{dates}</span></h4>
+                <h5>{position}</h5>
+                <ul>
+                  {React.Children.toArray(responsibilities.map((task) => <li>{task}</li>))}
+                </ul>
+              </>
+            )
+          }))}
+        </section>
       </article>
       {children}
     </Container>
