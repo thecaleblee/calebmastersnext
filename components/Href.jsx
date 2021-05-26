@@ -9,7 +9,7 @@ export default function Href(props) {
    *
    * @example <Href background={optional: URL-to-background} href={href-of-link} al={aria-label for link} external addClass={optional class names} />
    */
-  const { background = "", href, al = "", addClass = "", children } = props;
+  const { background = "", href = "/", al = "", addClass = "", children } = props;
 
   return (
     <Href>
