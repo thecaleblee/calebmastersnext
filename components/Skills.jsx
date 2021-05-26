@@ -47,8 +47,8 @@ export default function Skills(props) {
             );
           })
         )}
+        {children}
       </article>
-      {children}
     </Container>
   );
 }
