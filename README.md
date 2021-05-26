@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# calebmasters.dev
+#### Source for calebmasters.dev
 
-## Getting Started
+### Site Details
+The site is split into two repos & built on two different tech stacks. This portion was built out with React/Next.js. The other portion is just HTML/SCSS; it's code can be found [here](https://github.com/thecaleblee/calebmasters).
 
-First, run the development server:
+## Development 
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deployed on Netlify
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5641c1d7-ed03-4882-87e6-bb167ea7d48d/deploy-status)](https://app.netlify.com/sites/quirky-dijkstra-f141c7/deploys)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Tech Stack
+<img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&labelColor=2b2b2b" />
+<img alt="Sass" src="https://img.shields.io/badge/-Sass-c35e98?style=for-the-badge&logo=sass&labelColor=2b2b2b" />
+<img alt="js" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&labelColor=2b2b2b" />
+<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&labelColor=2b2b2b" />
+<img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&labelColor=2b2b2b" />
+<img alt="Jest" src="https://img.shields.io/badge/-Jest-916e79?style=for-the-badge&logo=jest&logoColor=916e79&labelColor=2b2b2b" />
+<img alt="ESLint" src="https://img.shields.io/badge/-ESLint-472fbd?style=for-the-badge&logo=eslint&logoColor=ffffff&labelColor=2b2b2b" />
+<img alt="Netlify" src="https://img.shields.io/badge/-Netlify-00c7b6?style=for-the-badge&logo=Netlify&labelColor=2b2b2b" />
+<img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=for-the-badge&logo=prettier&labelColor=2b2b2b" />
+<img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=for-the-badge&logo=npm&labelColor=2b2b2b" />
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Not sure why you'd want to, but, feel free to submit pull requests against `develop`; I'd be happy to learn from you.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credits
+[Me](https://github.com/thecaleblee)  
