@@ -43,7 +43,12 @@ export default function Home({ data }) {
         al="Skill Level"
         skillSet={skillSet}
       />
-     
+      <Resume
+        id={"resume"}
+        heading={"Resumé"}
+        subheading={"Me as a piece of paper"}
+        content={resumeContent}
+      />
     </Layout>
   );
 }
