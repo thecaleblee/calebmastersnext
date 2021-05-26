@@ -1,0 +1,157 @@
+{
+  "details": ["Front-End Engineer.", "UX Promoter.", "Hobby Collector."],
+  "recentWork": [
+    {
+      "al": "Recent Work Example: Bluehost.com",
+      "link": "/bluehost",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620844282/cmdev/bluehost_bc3c2l.jpg",
+      "heading": "Bluehost.com",
+      "subheading": "Tech Stack:",
+      "techStack": [
+        "React",
+        "JS",
+        "SCSS",
+        "Enzyme",
+        "Sketch",
+        "Invision",
+        "Optimizely",
+        "AWS",
+        "Git",
+        "Jira"
+      ],
+      "description": "Created React components for an in house framework based on Next.js to allow pages to be generated dynamically using Contentful as a CMS."
+    },
+    {
+      "al": "Recent Work Example: HostGator.com",
+      "link": "/hostgator",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620845531/cmdev/hostgator_vzcs0u.jpg",
+      "heading": "HostGator.com",
+      "subheading": "Tech Stack:",
+      "techStack": [
+        "Mason",
+        "Perl",
+        "JS",
+        "SCSS",
+        "Jest",
+        "Sketch",
+        "Invision",
+        "Monetate",
+        "Git",
+        "Jira"
+      ],
+      "description": "Created custom components and pages in the Perl based platform Mason, optimized the HTML/CSS of the legacy site, & created new landing pages utilizing an in house content management system."
+    },
+    {
+      "al": "Recent Work Example: This Website - Github Link",
+      "link": "https://github.com/thecaleblee/calebmasters",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
+      "heading": "This Website",
+      "subheading": "Tech Stack:",
+      "techStack": ["JS", "SCSS", "Photoshop", "Netlify", "Serve", "Git"],
+      "description": " Designed and built minimally without a framework to provide relavant information about myself but also to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or toggle the tech stack in the sub-nav."
+    }
+  ],
+  "skillSet": [
+    {
+      "category": "Front-End",
+      "skills": [
+        {
+          "name": "React",
+          "percent": 100
+        },
+        {
+          "name": "HTML/CSS",
+          "percent": 100
+        },
+        {
+          "name": "Javascript",
+          "percent": 90
+        },
+        {
+          "name": "Next.js/Gatsby",
+          "percent": 90
+        },
+        {
+          "name": "SCSS",
+          "percent": 90
+        },
+        {
+          "name": "Unit Testing",
+          "percent": 90
+        }
+      ]
+    },
+    {
+      "category": "Efficiencies",
+      "skills": [
+        {
+          "name": "NPM",
+          "percent": 100
+        },
+        {
+          "name": "VIM/CLI",
+          "percent": 100
+        },
+        {
+          "name": "Bitbox",
+          "percent": 100
+        },
+        {
+          "name": "Git",
+          "percent": 100
+        },
+        {
+          "name": "Gulp/Grunt",
+          "percent": 90
+        }
+      ]
+    },
+    {
+      "category": "Operations",
+      "skills": [
+        {
+          "name": "Agile",
+          "percent": 100
+        },
+        {
+          "name": "Jira",
+          "percent": 100
+        },
+        {
+          "name": "Deployment",
+          "percent": 80
+        },
+        {
+          "name": "A/B Testing",
+          "percent": 90
+        }
+      ]
+    }
+  ],
+  "Resume": {
+    "title": "Caleb Masters",
+    "downloadUrl": "/public/cmresume2021.pdf",
+    "contactText": "Contact via Linkedin",
+    "urlText": "linkedin.com/in/caleb-masters-atx/",
+    "url": "https://www.linkedin.com/in/caleb-masters-atx/",
+    "location": "Austin, TX.",
+    "Summary": "Frontend engineer with 10+ years experience building pixel-perfect, component based, mobile first, conversion-generating web experiences. Natural propensity toward community building, curiosity driven technical exploration, and problem solving. Hobby collector.",
+    "Experience": [
+      {
+        "company": "Newfold (Formerly Endurance International Group) - Bluehost, Hostgator, addt'l.",
+        "dates": "May 2011 - May 2021",
+        "position": "Front-End Engineer (I, II)",
+        "responsibilities": [
+          "Devleloped scalable & easily maintainable stateless functional components in React utilizing Contentful for content management",
+          "Collaborated with design and backend teams to deliver rapid, accessible, semantic, cross-browser compliant, end-user focused, websites in an agile workflow ",
+          "Worked with sys-ops & backend teams to deploy to AWS mirrors with devleopment, stakeholder, & production builds",
+          "Ensured the quality of our codebase by establishing best practice coding ownership standards and demonstrating those values when participating in peer-to-peer code reviews, resulting in continuously improving code and value to our stakeholders",
+          "Encouraged and instructed jr. developers, assisted on-boarding of new hires, and helped instill a culture of open communication and fellowship which helped lower our attrition rate",
+          "Led the charge to implement Test Driven Development into our development standards. Created unit tests using Enzyme/Jest, Mocha, & React Testing Library ensuring 100% code coverage for every component I built",
+          "Implemented Monetate & Optimizley/Optimizley Full-stack A/B campaigns for our marketing conversion success testing"
+        ],
+        "references": "Professional and Personal references available upon request"
+      }
+    ]
+  }
+}
