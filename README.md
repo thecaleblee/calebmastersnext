@@ -20,6 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Tech Stack
 <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&labelColor=2b2b2b" />
 <img alt="Sass" src="https://img.shields.io/badge/-Sass-c35e98?style=for-the-badge&logo=sass&labelColor=2b2b2b" />
+<img alt="js" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&labelColor=2b2b2b" />
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&labelColor=2b2b2b" />
 <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&labelColor=2b2b2b" />
 <img alt="Jest" src="https://img.shields.io/badge/-Jest-916e79?style=for-the-badge&logo=jest&logoColor=916e79&labelColor=2b2b2b" />
