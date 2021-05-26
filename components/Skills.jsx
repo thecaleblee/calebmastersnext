@@ -1,6 +1,6 @@
 import Container from "./Container";
 
-export default function Resume(props) {
+export default function Skills(props) {
   const {
     id,
     children,
@@ -12,4 +12,3 @@ export default function Resume(props) {
     </Container>
   )
 };
-

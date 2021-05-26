@@ -1,6 +1,7 @@
 import Layout from "../layouts/Layout";
 import Hero from "../components/Hero";
 import Recent from "../components/Recent";
+import Skills from '../components/Skills';
 import Resume from "../components/Resume";
 import data from '../lib/calebmasters.json'
 
