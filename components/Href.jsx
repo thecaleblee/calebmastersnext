@@ -12,7 +12,7 @@ export default function Href(props) {
   const { background = "", href = "/", al = "", addClass = "", children } = props;
 
   return (
-    <Href>
+    <>
       <style jsx>{`
         a:before {
           background: url(${background}) no-repeat center center;
@@ -28,6 +28,6 @@ export default function Href(props) {
           <a aria-label={al}>{children}</a>
         )}
       </Link>
-    </Href>
+    </>
   );
 }
