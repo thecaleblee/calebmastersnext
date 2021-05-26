@@ -28,11 +28,7 @@ export default function Card(props) {
 
   return (
     <>
-      <Href
-        href={link}
-        aria-label={al}
-        background={background}
-      >
+      <Href href={link} aria-label={al} background={background}>
         <article>
           <hgroup>
             <h3 aria-label={heading} itemProp="title">
@@ -40,7 +36,14 @@ export default function Card(props) {
             </h3>
             <h4 itemProp="subheading">
               <span>{subheading} </span>
-              {React.Children.toArray(techStack.map((item, i) => <>{item}{i + 1 === techStack.length ? '.' : ', '}</>))}
+              {React.Children.toArray(
+                techStack.map((item, i) => (
+                  <>
+                    {item}
+                    {i + 1 === techStack.length ? "." : ", "}
+                  </>
+                ))
+              )}
             </h4>
           </hgroup>
           <p>{description}</p>
