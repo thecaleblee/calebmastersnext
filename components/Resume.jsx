@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import Href from './Href';
 
 export default function Resume(props) {
   const {
@@ -35,26 +36,26 @@ export default function Resume(props) {
           <h2>
             {title}
             <span>
-              <a
+              <Href
                 href={downloadUrl}
                 al={downloadText}
               >
                 {downloadText}
-              </a>
+              </Href>
             </span>
           </h2>
           <p>
             {contactText}
           </p>
           <p>
-            <a
-                href={url}
-                al={al}
-                target="_blank"
-                rel="noopener"
-              >
-                {urlText}
-              </a>
+            <Href
+              href={url}
+              al={al}
+              target="_blank"
+              rel="noopener"
+            >
+              {urlText}
+            </Href>
           </p>
           <p>
             {location}
