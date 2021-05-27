@@ -76,8 +76,10 @@ export default function Resume(props) {
 
             return(
               <>
-                <h4>{company}<span aria-label={`Employed from ${dates}`}>{dates}</span></h4>
-                <h5>{position}</h5>
+                <hgroup>
+                  <h4>{company}<span aria-label={`Employed from ${dates}`}>{dates}</span></h4>
+                  <h5>{position}</h5>
+                </hgroup>
                 <ul>
                   {React.Children.toArray(responsibilities.map((task) => <li>{task}</li>))}
                 </ul>
