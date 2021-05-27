@@ -11,9 +11,10 @@ export default function Container(props) {
       <div className={'container'}>
         {children}
         <Href
-          href={'#top'}
-          aria-label={'Back to Top'}
+          href={'top'}
+          al={'Back to Top'}
           addClass={'top'}
+          samePage
         >
           Back to Top
         </Href>
