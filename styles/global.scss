@@ -1,7 +1,4 @@
-/** CSS written just to prove to myself I can still do it w/o needing a compiler **/
-
-/** Reset provided by digitalocean.com & other various sources 
-... I'm aware of the irony; I could have written it, but why? **/
+/** Reset provided by digitalocean.com & other various sources  */
 
 * {
   box-sizing: border-box;
@@ -264,6 +261,10 @@ body {
   height: auto;
   color: var(--main-text);
   background: var(--main-bg);
+}
+
+a {
+  cursor: pointer;
 }
 
 nav {
