@@ -43,11 +43,11 @@
     },
     {
       "al": "Recent Work Example: This Website - Github Link",
-      "link": "https://github.com/thecaleblee/calebmasters",
+      "link": "https://github.com/thecaleblee/calebmastersnext",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
       "heading": "This Website",
       "subheading": "Tech Stack:",
-      "techStack": ["JS", "SCSS", "Photoshop", "Netlify", "Serve", "Git"],
+      "techStack": ["Next.JS", "JS", "SCSS", "Photoshop", "Netlify", "NPM", "Git"],
       "description": " Designed and built minimally without a framework to provide relavant information about myself but also to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or toggle the tech stack in the sub-nav."
     }
   ],
