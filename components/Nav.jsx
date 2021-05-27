@@ -9,8 +9,8 @@ export default function Nav(props) {
   const [page, setPage ] = useState(currentPage);
 
   return (
-    <header id="top">
-      <nav role="navigation" al="Main Navigation">
+    <header id={'top'}>
+      <nav role={'navigation'} al={'Main Navigation'}>
         <ul>
           <li>
             <Href href={'/'} ariaLable={'Home'}>
@@ -20,7 +20,7 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href="#recent-work" al="Recent Work">
+            <Href href={'recent-work'} al={'Recent Work'} samePage>
               <>
                 <i className="gg-browser"></i>
                 Recent Work
@@ -28,7 +28,7 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href="#skills" al="Skills">
+            <Href href={'skills'} al={'Skills'} samePage>
               <>
                 <i className="gg-terminal"></i>
                 Skills
@@ -36,23 +36,23 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href="#resume" al="Resumé">
+            <Href href={'resume'} al={'Resumé'} samePage>
               <i className="gg-briefcase"></i> Resumé
             </Href>
           </li>
         </ul>
-        <ul className="tech" aria-hidden="true">
+        <ul className={'tech'} aria-hidden="true">
           <li>
             <Href
-              href="https://calebmasters.dev/"
-              al="Change Website Tech Stack to: HTML/CSS/JS"
+              href={'https://calebmasters.dev/'}
+              al={'Change Website Tech Stack to: HTML/CSS/JS'}
               >HTML/CSS/JS
             </Href>
           </li>
           <li>
             <Href
-              href="/"
-              al="Change Website Tech Stack to: React/Next.js"
+              href={'/'}
+              al={'Change Website Tech Stack to: React/Next.js'}
               addClass={'active'} 
               >React/Next.js
             </Href>
