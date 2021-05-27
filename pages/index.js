@@ -19,7 +19,7 @@ export default function Home({ data }) {
     details = {},
     recentWork = {},
     skillSet = {},
-    resume = {},
+    resumeContent = {},
   } = data;
 
   return (
@@ -44,8 +44,10 @@ export default function Home({ data }) {
         skillSet={skillSet}
       />
       <Resume
-        id={'resume'}
-        
+        id={"resume"}
+        heading={"Resumé"}
+        subheading={"Me as a piece of paper"}
+        content={resumeContent}
       />
     </Layout>
   );
