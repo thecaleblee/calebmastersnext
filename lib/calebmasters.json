@@ -43,7 +43,7 @@
     },
     {
       "al": "Recent Work Example: This Website - Github Link",
-      "link": "https://github.com/thecaleblee/calebmastersnext",
+      "link": "/thiswebsite",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
       "heading": "This Website",
       "subheading": "Tech Stack:",
@@ -169,7 +169,8 @@
     {
       "name": "bluehost",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620844282/cmdev/bluehost_bc3c2l.jpg",
-      "heading": "Bluehost.com",
+      "heading": "Bluehost",
+      "emHeading": ".com",
       "subheading": "Tech Stack:",
       "techStack": [
         "React",
@@ -182,12 +183,14 @@
         "AWS",
         "Git",
         "Jira"
-      ]
+      ],
+      "breakdown": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at condimentum dui. Ut congue finibus ligula nec ullamcorper. In ligula lorem, blandit id magna gravida, scelerisque gravida tortor. Morbi pharetra condimentum diam, sit amet iaculis mauris tristique eu. Sed eget nisi finibus, congue neque ac, gravida ligula. Aenean ac lobortis ipsum, nec pulvinar arcu. Morbi non felis quam. In auctor gravida nisl, non lobortis elit dictum id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat, lorem non commodo vulputate, ligula diam ullamcorper elit, a fermentum orci est non lorem. Proin vel enim nisl. Suspendisse eleifend ante eget sapien efficitur imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent in tellus nisi.  Curabitur elementum, tellus non pretium viverra, quam libero faucibus risus, eu rhoncus lectus felis nec dui. Sed vitae fermentum nibh, et ultrices massa. Duis vitae magna ac felis pulvinar mattis. Aenean finibus quam id vestibulum tincidunt. Nulla mattis libero ipsum, ac auctor libero vestibulum et. Donec dignissim, diam at iaculis lobortis, diam nisl luctus risus, eu cursus eros urna ut libero. Vivamus bibendum, diam sed tristique rutrum, lacus est pulvinar nibh, eu auctor elit enim at mauris. Maecenas ut aliquam odio. In ac ipsum vitae augue placerat aliquet sed eu diam. Sed aliquet, tellus aliquam molestie facilisis, metus libero sagittis quam, ut pretium nibh justo in ligula. Praesent dictum dignissim dolor at consequat. Nullam faucibus non augue quis fringilla.  Morbi posuere feugiat ex, sit amet posuere urna dignissim nec. Morbi condimentum eros mi, in finibus ante porta non. Quisque eleifend turpis quis nisi sodales, eget elementum velit luctus. Nullam interdum mollis erat id pulvinar. Donec interdum, nibh vitae congue blandit, dolor ante bibendum turpis, id pretium diam nisl vel eros. Vivamus ut ante auctor, egestas neque vel, facilisis nisl. In varius semper turpis vitae mollis. Donec a turpis mauris. Maecenas volutpat pulvinar massa, at aliquam orci suscipit in. Integer nec malesuada leo."
     },
     {
       "name": "hostgator",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620845531/cmdev/hostgator_vzcs0u.jpg",
-      "heading": "HostGator.com",
+      "heading": "HostGator",
+      "emHeading": ".com",
       "subheading": "Tech Stack:",
       "techStack": [
         "Mason",
@@ -205,7 +208,8 @@
     {
       "name": "thiswebsite",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
-      "heading": "This Website",
+      "heading": "This ",
+      "emHeading": "Website",
       "subheading": "Tech Stack:",
       "techStack": [
         "Next.JS",
