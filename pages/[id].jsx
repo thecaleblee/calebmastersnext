@@ -3,13 +3,14 @@ import { useRouter } from "next/router";
 import Layout from "../layouts/Layout";
 import Container from "../components/Container";
 import data from "../lib/calebmasters.json";
+import Href from "../components/Href";
 
 export async function getStaticPaths() {
   return {
     paths: [], //indicates that no page needs be created at build time
     fallback: "blocking", //indicates the type of fallback
   };
-};
+}
 
 export async function getStaticProps() {
   return {
@@ -46,16 +47,19 @@ const id = ({ data }) => {
           {heading}
           <span>{emHeading}</span>
         </h1>
+        <Href href={`/#recent-work`} al={`Back`} samePage={false}>
+          Back
+        </Href>
       </section>
       <section id="recent-work" className={`page`}>
         <Container>
           <article>
-          <style jsx>{`
-            article:before {
-              background: url(${background}) no-repeat center center;
-              background-size: cover;
-            }
-          `}</style>
+            <style jsx>{`
+              article:before {
+                background: url(${background}) no-repeat center center;
+                background-size: cover;
+              }
+            `}</style>
             <hgroup>
               <h3 aria-label={heading} itemProp="title">
                 {heading}

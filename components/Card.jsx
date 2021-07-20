@@ -28,7 +28,7 @@ export default function Card(props) {
 
   return (
     <>
-      <Href href={link} aria-label={al} background={background}>
+      <Href href={link} al={al} background={background}>
         <article>
           <hgroup>
             <h3 aria-label={heading} itemProp="title">
