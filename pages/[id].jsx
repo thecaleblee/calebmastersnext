@@ -8,7 +8,7 @@ import Href from "../components/Href";
 export async function getStaticPaths() {
   return {
     paths: [], //indicates that no page needs be created at build time
-    fallback: "blocking", //indicates the type of fallback
+    fallback: false, //indicates the type of fallback
   };
 }
 
