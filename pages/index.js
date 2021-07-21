@@ -1,20 +1,19 @@
 import Layout from "../layouts/Layout";
 import Hero from "../components/Hero";
 import Recent from "../components/Recent";
-import Skills from '../components/Skills';
+import Skills from "../components/Skills";
 import Resume from "../components/Resume";
-import data from '../lib/calebmasters.json'
+import data from "../lib/calebmasters.json";
 
 export async function getStaticProps() {
   return {
     props: {
-      data
-    }
-  }
+      data,
+    },
+  };
 }
 
 export default function Home({ data }) {
-
   const {
     details = {},
     recentWork = {},
@@ -26,18 +25,18 @@ export default function Home({ data }) {
     <Layout currentPage={"Home"}>
       <Hero
         id={"hero"}
-        tagline={"obligatory portfolio for"}
+        tagline={"portfolio for"}
         emHeading={"Caleb"}
         heading={"Masters"}
         talkingPoints={details}
       />
       <Recent
-        id={'recent-work'}
+        id={"recent-work"}
         heading={"Projects I've Worked On Recently"}
         cards={recentWork}
       />
       <Skills
-        id={'skills'}
+        id={"skills"}
         heading={"Skills"}
         subheading={"From design to pixel perfect & deployed"}
         al="Skill Level"

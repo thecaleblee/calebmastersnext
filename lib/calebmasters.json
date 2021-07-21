@@ -8,15 +8,15 @@
       "heading": "Bluehost.com",
       "subheading": "Tech Stack:",
       "techStack": [
-        "React",
-        "JS",
+        "React/Next.js",
         "SCSS",
+        "Styled Components",
+        "Contentful",
         "Enzyme",
-        "Sketch",
-        "Invision",
         "Optimizely",
         "AWS",
-        "Git",
+        "Bitbucket",
+        "Confluence",
         "Jira"
       ],
       "description": "Created React components for an in house framework based on Next.js to allow pages to be generated dynamically using Contentful as a CMS."
@@ -43,12 +43,20 @@
     },
     {
       "al": "Recent Work Example: This Website - Github Link",
-      "link": "https://github.com/thecaleblee/calebmastersnext",
+      "link": "/thiswebsite",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
       "heading": "This Website",
       "subheading": "Tech Stack:",
-      "techStack": ["Next.JS", "JS", "SCSS", "Photoshop", "Netlify", "NPM", "Git"],
-      "description": " Designed and built minimally without a framework to provide relavant information about myself but also to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or toggle the tech stack in the sub-nav."
+      "techStack": [
+        "Next.JS",
+        "JS",
+        "SCSS",
+        "Photoshop",
+        "Netlify",
+        "NPM",
+        "Git"
+      ],
+      "description": "Designed and built minimally as both a static html/CSS website and as a React app, to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or toggle the tech stack in the sub-nav at the top."
     }
   ],
   "skillSet": [
@@ -137,24 +145,65 @@
     "url": "https://www.linkedin.com/in/caleb-masters-atx/",
     "al": "External link to Linkedin.com profile",
     "location": "Austin, TX.",
-    "summary": "Frontend engineer with 10+ years experience building pixel-perfect, component based, mobile first, conversion-generating web experiences. Natural propensity toward community building, curiosity driven technical exploration, and problem solving. Hobby collector.",
+    "summary": "Frontend engineer with 10+ years experience building enterprise-grade, pixel-perfect, accessible, lightweight, component based, mobile-first, conversion-generating web experiences. Natural propensity toward community building, curiosity driven technical exploration, and problem solving. Hobby collector.",
     "experienceTitle": "Experience",
-    "experience": [
-      {
-        "company": "Newfold (Formerly Endurance International Group) - Bluehost, Hostgator, addt'l.",
-        "dates": "May 2011 - May 2021",
-        "position": "Front-End Engineer (I, II)",
-        "responsibilities": [
-          "Devleloped scalable & easily maintainable stateless functional components in React utilizing Contentful for content management",
-          "Collaborated with design and backend teams to deliver rapid, accessible, semantic, cross-browser compliant, end-user focused, websites in an agile workflow ",
-          "Worked with sys-ops & backend teams to deploy to AWS mirrors with devleopment, stakeholder, & production builds",
-          "Ensured the quality of our codebase by establishing best practice coding ownership standards and demonstrating those values when participating in peer-to-peer code reviews, resulting in continuously improving code and value to our stakeholders",
-          "Encouraged and instructed jr. developers, assisted on-boarding of new hires, and helped instill a culture of open communication and fellowship which helped lower our attrition rate",
-          "Led the charge to implement Test Driven Development into our development standards. Created unit tests using Enzyme/Jest, Mocha, & React Testing Library ensuring 100% code coverage for every component I built",
-          "Implemented Monetate & Optimizley/Optimizley Full-stack A/B campaigns for our marketing conversion success testing"
-        ]
-      }
-    ],
     "references": "Professional and Personal references available upon request"
-  }
+  },
+  "page": [
+    {
+      "name": "bluehost",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620844282/cmdev/bluehost_bc3c2l.jpg",
+      "heading": "Bluehost",
+      "emHeading": ".com",
+      "subheading": "Tech Stack:",
+      "techStack": [
+        "React/Next.js",
+        "SCSS",
+        "Styled Components",
+        "Contentful",
+        "Enzyme",
+        "Optimizely",
+        "AWS",
+        "Bitbucket",
+        "Confluence",
+        "Jira"
+      ],
+      "breakdown": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at condimentum dui. Ut congue finibus ligula nec ullamcorper. In ligula lorem, blandit id magna gravida, scelerisque gravida tortor. Morbi pharetra condimentum diam, sit amet iaculis mauris tristique eu. Sed eget nisi finibus, congue neque ac, gravida ligula. Aenean ac lobortis ipsum, nec pulvinar arcu. Morbi non felis quam. In auctor gravida nisl, non lobortis elit dictum id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat, lorem non commodo vulputate, ligula diam ullamcorper elit, a fermentum orci est non lorem. Proin vel enim nisl. Suspendisse eleifend ante eget sapien efficitur imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent in tellus nisi.  Curabitur elementum, tellus non pretium viverra, quam libero faucibus risus, eu rhoncus lectus felis nec dui. Sed vitae fermentum nibh, et ultrices massa. Duis vitae magna ac felis pulvinar mattis. Aenean finibus quam id vestibulum tincidunt. Nulla mattis libero ipsum, ac auctor libero vestibulum et. Donec dignissim, diam at iaculis lobortis, diam nisl luctus risus, eu cursus eros urna ut libero. Vivamus bibendum, diam sed tristique rutrum, lacus est pulvinar nibh, eu auctor elit enim at mauris. Maecenas ut aliquam odio. In ac ipsum vitae augue placerat aliquet sed eu diam. Sed aliquet, tellus aliquam molestie facilisis, metus libero sagittis quam, ut pretium nibh justo in ligula. Praesent dictum dignissim dolor at consequat. Nullam faucibus non augue quis fringilla.  Morbi posuere feugiat ex, sit amet posuere urna dignissim nec. Morbi condimentum eros mi, in finibus ante porta non. Quisque eleifend turpis quis nisi sodales, eget elementum velit luctus. Nullam interdum mollis erat id pulvinar. Donec interdum, nibh vitae congue blandit, dolor ante bibendum turpis, id pretium diam nisl vel eros. Vivamus ut ante auctor, egestas neque vel, facilisis nisl. In varius semper turpis vitae mollis. Donec a turpis mauris. Maecenas volutpat pulvinar massa, at aliquam orci suscipit in. Integer nec malesuada leo."
+    },
+    {
+      "name": "hostgator",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620845531/cmdev/hostgator_vzcs0u.jpg",
+      "heading": "HostGator",
+      "emHeading": ".com",
+      "subheading": "Tech Stack:",
+      "techStack": [
+        "Mason",
+        "Perl",
+        "JS",
+        "SCSS",
+        "Jest",
+        "Sketch",
+        "Invision",
+        "Monetate",
+        "Git",
+        "Jira"
+      ]
+    },
+    {
+      "name": "thiswebsite",
+      "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
+      "heading": "This ",
+      "emHeading": "Website",
+      "subheading": "Tech Stack:",
+      "techStack": [
+        "Next.JS",
+        "JS",
+        "SCSS",
+        "Photoshop",
+        "Netlify",
+        "NPM",
+        "Git"
+      ]
+    }
+  ]
 }

@@ -7,11 +7,18 @@ export default function Href(props) {
    * @param {string} href - The href of the link
    * @param {string} al - Aria-Label for the link
    * @param {string} addClass - Class names to add to link
-   * @param {bool} samePage - Enable to make smooth scrolling anchor links 
+   * @param {bool} samePage - Enable to make smooth scrolling anchor links
    *
    * @example <Href background={optional: URL-to-background} href={href-of-link} al={aria-label for link} external addClass={optional class names} samePage />
    */
-  const { samePage = false, background = "", href = "/", al = "", addClass = "", children } = props;
+  const {
+    samePage = false,
+    background = "",
+    href = "/",
+    al = "",
+    addClass = "",
+    children,
+  } = props;
 
   return (
     <>
@@ -19,7 +26,7 @@ export default function Href(props) {
         <Scroller
           activeClass="active"
           to={href}
-          spy={true}
+          spy={false}
           smooth={true}
           offset={0}
           duration={500}
@@ -42,7 +49,9 @@ export default function Href(props) {
                 {children}
               </a>
             ) : (
-              <a href={href} aria-label={al}>{children}</a>
+              <a href={href} aria-label={al}>
+                {children}
+              </a>
             )}
           </Link>
         </>

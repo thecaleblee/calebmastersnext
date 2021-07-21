@@ -1,12 +1,11 @@
 import Href from '../components/Href';
-import { useState } from 'react';
 
 export default function Nav(props) {
   const {
     currentPage,
   } = props;
 
-  const [page, setPage ] = useState(currentPage);
+  const isHome = currentPage === 'Home';
 
   return (
     <header id={'top'}>
@@ -20,7 +19,7 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href={'recent-work'} al={'Recent Work'} samePage>
+            <Href href={isHome ? 'recent-work' : '/#recent-work'} al={'Recent Work'} samePage={isHome ? true : false}>
               <>
                 <i className="gg-browser"></i>
                 Recent Work
@@ -28,7 +27,7 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href={'skills'} al={'Skills'} samePage>
+            <Href href={isHome ? 'skills' : '/#skills'} al={'Skills'} samePage={isHome ? true : false}>
               <>
                 <i className="gg-terminal"></i>
                 Skills
@@ -36,7 +35,7 @@ export default function Nav(props) {
             </Href>
           </li>
           <li>
-            <Href href={'resume'} al={'Resumé'} samePage>
+            <Href href={isHome ? 'resume' : '/#resume'} al={'Resumé'} samePage={isHome ? true : false}>
               <i className="gg-briefcase"></i> Resumé
             </Href>
           </li>

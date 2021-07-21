@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import Href from './Href';
+import Href from "./Href";
 
 export default function Resume(props) {
   const {
@@ -22,7 +22,7 @@ export default function Resume(props) {
     location = "",
     summary = "",
     experienceTitle = "",
-    experience = []
+    experience = [],
   } = content;
 
   return (
@@ -36,60 +36,52 @@ export default function Resume(props) {
           <h2>
             {title}
             <span>
-              <Href
-                href={downloadUrl}
-                al={downloadText}
-              >
+              <Href href={downloadUrl} al={downloadText}>
                 {downloadText}
               </Href>
             </span>
           </h2>
+          <p>{contactText}</p>
           <p>
-            {contactText}
-          </p>
-          <p>
-            <Href
-              href={url}
-              al={al}
-              target="_blank"
-              rel="noopener"
-            >
+            <Href href={url} al={al} target="_blank" rel="noopener">
               {urlText}
             </Href>
           </p>
-          <p>
-            {location}
-          </p>
+          <p>{location}</p>
         </header>
         <section>
           <h3>Summary</h3>
           <p>{summary}</p>
         </section>
+        {/* 
+          Origionally designed to act as a resumé; the pdf does a better job.
         <section>
           <h3>{experienceTitle}</h3>
-          {React.Children.toArray(experience.map((job) => {
-            const {
-              company,
-              dates,
-              position,
-              responsibilities = []
-            } = job;
+          {React.Children.toArray(
+            experience.map((job) => {
+              const { company, dates, position, responsibilities = [] } = job;
 
-            return(
-              <>
-                <hgroup>
-                  <h4>{company}<span aria-label={`Employed from ${dates}`}>{dates}</span></h4>
-                  <h5>{position}</h5>
-                </hgroup>
-                <ul>
-                  {React.Children.toArray(responsibilities.map((task) => <li>{task}</li>))}
-                </ul>
-              </>
-            )
-          }))}
-        </section>
+              return (
+                <>
+                  <hgroup>
+                    <h4>
+                      {company}
+                      <span aria-label={`Employed from ${dates}`}>{dates}</span>
+                    </h4>
+                    <h5>{position}</h5>
+                  </hgroup>
+                  <ul>
+                    {React.Children.toArray(
+                      responsibilities.map((task) => <li>{task}</li>)
+                    )}
+                  </ul>
+                </>
+              );
+            })
+          )}
+        </section> */}
       </article>
       {children}
     </Container>
-  )
-};
+  );
+}
