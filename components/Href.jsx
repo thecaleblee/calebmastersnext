@@ -26,7 +26,7 @@ export default function Href(props) {
         <Scroller
           activeClass="active"
           to={href}
-          spy={true}
+          spy={false}
           smooth={true}
           offset={0}
           duration={500}
