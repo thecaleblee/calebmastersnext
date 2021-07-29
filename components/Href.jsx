@@ -19,6 +19,7 @@ export default function Href(props) {
     al = "",
     addClass = "",
     children,
+    tabindex = 0,
   } = props;
 
   return (
@@ -46,11 +47,16 @@ export default function Href(props) {
           `}</style>
           <Link href={href}>
             {addClass ? (
-              <a href={href} aria-label={al} className={addClass}>
+              <a
+                href={href}
+                aria-label={al}
+                className={addClass}
+                tabIndex={tabindex}
+              >
                 {children}
               </a>
             ) : (
-              <a href={href} aria-label={al}>
+              <a href={href} aria-label={al} tabIndex={tabindex}>
                 {children}
               </a>
             )}
