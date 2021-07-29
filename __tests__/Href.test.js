@@ -7,17 +7,23 @@ describe("<Href />", () => {
   it("Should render without props", () => {
     const wrapper = shallow(<Href />);
 
-    expect(wrapper.contains(<a aria-label="" href="/" />)).toBe(true);
+    expect(wrapper.contains(<a aria-label="" href="/" tabIndex={0} />)).toBe(
+      true
+    );
   });
   it("Should update the href to '/tests'", () => {
     const wrapper = shallow(<Href href={`/test`} />);
 
-    expect(wrapper.contains(<a aria-label="" href="/test" />)).toBe(true);
+    expect(
+      wrapper.contains(<a aria-label="" href="/test" tabIndex={0} />)
+    ).toBe(true);
   });
   it("Should update the Aria Label to 'Test Link'", () => {
     const wrapper = shallow(<Href al={`Test Link`} />);
 
-    expect(wrapper.contains(<a aria-label="Test Link" href="/" />)).toBe(true);
+    expect(
+      wrapper.contains(<a aria-label="Test Link" href="/" tabIndex={0} />)
+    ).toBe(true);
   });
   it("Should include the classes'test class'", () => {
     const wrapper = shallow(<Href addClass={`test class`} />);

@@ -18,6 +18,7 @@ exports[`<Href /> Snapshot of normal link should match 1`] = `
     <a
       aria-label=""
       href="/"
+      tabIndex={0}
     />
   </Link>
 </Fragment>

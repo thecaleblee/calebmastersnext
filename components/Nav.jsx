@@ -59,6 +59,7 @@ export default function Nav(props) {
             <Href
               href={"https://calebmasters.dev/"}
               al={"Change Website Tech Stack to: HTML/CSS/JS"}
+              tabindex="-1"
             >
               HTML/CSS/JS
             </Href>
@@ -68,6 +69,7 @@ export default function Nav(props) {
               href={"/"}
               al={"Change Website Tech Stack to: React/Next.js"}
               addClass={"active"}
+              tabindex="-1"
             >
               React/Next.js
             </Href>
