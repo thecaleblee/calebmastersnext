@@ -56,6 +56,7 @@ export default function Hat(props = {}) {
         property="og:image"
         content="https://res.cloudinary.com/calebmastersdev/image/upload/v1621282948/cmdev/og-cmd_pu7fqj.png"
       />
+      <script type="text/javascript" src="/static/accessibility.js"></script>
     </Head>
   );
 }
