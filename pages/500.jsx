@@ -10,7 +10,7 @@ const Custom500 = () => {
   return (
     <>
       <style jsx>{`
-        a:before {
+        article:before {
           background: url(${background}) no-repeat center center;
           background-size: cover;
         }
