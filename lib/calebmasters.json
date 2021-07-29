@@ -3,7 +3,7 @@
   "recentWork": [
     {
       "al": "Recent Work Example: Bluehost.com",
-      "link": "/bluehost",
+      "link": "https://www.bluehost.com",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620844282/cmdev/bluehost_bc3c2l.jpg",
       "heading": "Bluehost.com",
       "subheading": "Tech Stack:",
@@ -23,7 +23,7 @@
     },
     {
       "al": "Recent Work Example: HostGator.com",
-      "link": "/hostgator",
+      "link": "https://www.hostgator.com",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1620845531/cmdev/hostgator_vzcs0u.jpg",
       "heading": "HostGator.com",
       "subheading": "Tech Stack:",
@@ -43,7 +43,7 @@
     },
     {
       "al": "Recent Work Example: This Website - Github Link",
-      "link": "/thiswebsite",
+      "link": "https://www.calebmasters.dev/",
       "background": "https://res.cloudinary.com/calebmastersdev/image/upload/v1621370702/cmdev/calebmastersdev_cjbyeh.jpg",
       "heading": "This Website",
       "subheading": "Tech Stack:",
@@ -56,7 +56,7 @@
         "NPM",
         "Git"
       ],
-      "description": "Designed and built minimally as both a static html/CSS website and as a React app, to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or toggle the tech stack in the sub-nav at the top."
+      "description": "Designed and built minimally as both a static html/CSS website and as a React app, to demonstrate my skillset. Please take a look at the code, run a Lighthouse report, or click here to toggle the tech stack."
     }
   ],
   "skillSet": [
