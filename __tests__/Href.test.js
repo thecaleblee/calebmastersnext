@@ -30,6 +30,15 @@ describe("<Href />", () => {
     expect(wrapper.contains(<a aria-label="" href="/test" />)).toBe(false);
     expect(wrapper.children().props()).toHaveProperty("smooth", true);
   });
+  it("Should render child elements like <p>test child</p>", () => {
+    const wrapper = shallow(
+      <Href>
+        <p>test child</p>
+      </Href>
+    );
+
+    expect(wrapper.contains(<p>test child</p>)).toBe(true);
+  });
   it("Snapshot of normal link should match", () => {
     const component = shallow(<Href samePage={false} />);
     expect(component).toMatchSnapshot();
