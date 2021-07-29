@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import { Link as Scroller, animateScroll as scroll } from "react-scroll";
 
