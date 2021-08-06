@@ -14,6 +14,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
+## Testing
+To run tests:
+
+```bash
+npm run test
+```
+
+*Note:* Not built with TDD; single test added for demonstration only. For TDD example see the [Angular](https://github.com/thecaleblee/calebmastersng) version of the code.
+
 ## Deployed on Netlify
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5641c1d7-ed03-4882-87e6-bb167ea7d48d/deploy-status)](https://app.netlify.com/sites/quirky-dijkstra-f141c7/deploys)
