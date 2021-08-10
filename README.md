@@ -1,8 +1,9 @@
 # calebmasters.dev
-#### Source for calebmasters.dev
+#### Source for react.calebmasters.dev
+
 
 ### Site Details
-The site is split into two repos & built on two different tech stacks. This portion was built out with React/Next.js. The other portion is just HTML/SCSS; it's code can be found [here](https://github.com/thecaleblee/calebmasters).
+The site is split into three repos & built on three different tech stacks. This portion was built with React/Next.js. The others were built with Angular/SCSS - it's code can be found [here](https://github.com/thecaleblee/calebmastersng), and HTML/CSS (later converted to SCSS because the novelty wore off) - it's code can be found [here](https://github.com/thecaleblee/calebmasters).
 
 ## Development 
 To run the development server:
@@ -12,6 +13,16 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Testing
+To run tests:
+
+```bash
+npm run test
+```
+
+*Note:* Not built with TDD; single test added for demonstration only. For TDD example see the [Angular](https://github.com/thecaleblee/calebmastersng) version of the code.
 
 ## Deployed on Netlify
 

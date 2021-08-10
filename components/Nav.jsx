@@ -74,6 +74,15 @@ export default function Nav(props) {
               React/Next.js
             </Href>
           </li>
+          <li>
+            <Href
+              href={"https://ng.calebmasters.dev/"}
+              al={"Change Website Tech Stack to: Angular.js/SCSS"}
+              tabindex="-1"
+            >
+              Angular.js/SCSS
+            </Href>
+          </li>
         </ul>
       </nav>
     </header>
