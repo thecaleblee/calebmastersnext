@@ -1,4 +1,5 @@
 import React from "react";
+import Href from "./Href";
 
 export default function Hero(props) {
   const { id, tagline, emHeading, heading, talkingPoints } = props;
@@ -15,6 +16,19 @@ export default function Hero(props) {
             talkingPoints.map((point) => <li>{point}</li>)
           )}
         </ul>
+        <Href
+          href={`https://github.com/thecaleblee/calebmastersnext`}
+          al={`This websites code on Github`}
+          addClass={`github`}
+        >
+          <img
+            src="https://res.cloudinary.com/calebmastersdev/image/upload/v1628621456/cmdev/github_e5vqv0.svg"
+            alt="Caleb Masters Dev Github"
+            width="24"
+            height="24"
+          />
+          View Code on Github
+        </Href>
       </section>
     </>
   );
