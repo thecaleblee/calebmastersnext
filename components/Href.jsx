@@ -9,6 +9,7 @@ export default function Href(props) {
    * @param {string} al - Aria-Label for the link
    * @param {string} addClass - Class names to add to link
    * @param {bool} samePage - Enable to make smooth scrolling anchor links
+   * @param {string} rel - Use to include 'noopener' on links
    *
    * @example <Href background={optional: URL-to-background} href={href-of-link} al={aria-label for link} external addClass={optional class names} samePage />
    */
@@ -20,6 +21,7 @@ export default function Href(props) {
     addClass = "",
     children,
     tabindex = 0,
+    rel = "",
   } = props;
 
   return (
@@ -52,11 +54,12 @@ export default function Href(props) {
                 aria-label={al}
                 className={addClass}
                 tabIndex={tabindex}
+                rel={rel}
               >
                 {children}
               </a>
             ) : (
-              <a href={href} aria-label={al} tabIndex={tabindex}>
+              <a href={href} aria-label={al} rel={rel} tabIndex={tabindex}>
                 {children}
               </a>
             )}

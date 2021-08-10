@@ -20,6 +20,7 @@ export default function Hero(props) {
           href={`https://github.com/thecaleblee/calebmastersnext`}
           al={`This websites code on Github`}
           addClass={`github`}
+          rel={`noopener`}
         >
           <img
             src="https://res.cloudinary.com/calebmastersdev/image/upload/v1628621456/cmdev/github_e5vqv0.svg"
