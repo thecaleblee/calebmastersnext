@@ -83,6 +83,15 @@ export default function Nav(props) {
               Angular.js/SCSS
             </Href>
           </li>
+          <li>
+            <Href
+              href={"https://vue.calebmasters.dev/"}
+              al={"Change Website Tech Stack to: Vue.js/SCSS/TS"}
+              tabindex="-1"
+            >
+              Vue.js/SCSS/TS
+            </Href>
+          </li>
         </ul>
       </nav>
     </header>
