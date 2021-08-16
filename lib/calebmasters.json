@@ -56,7 +56,7 @@
         "NPM",
         "Git"
       ],
-      "description": "Designed and built minimally as a static HTML5/CSS website, a React app, and as an Angular app. Please take a look at the code, run and compare Lighthouse reports, or click here to toggle the tech stack."
+      "description": "Designed and built minimally as a static HTML5/CSS website, a React app, an Angular app, and as a Vue app. Please take a look at the code, run and compare Lighthouse reports, or click here to toggle the tech stack."
     }
   ],
   "skillSet": [
