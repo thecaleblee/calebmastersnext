@@ -41,7 +41,9 @@ npm run test
   <img alt="Netlify" src="https://img.shields.io/badge/-Netlify-00c7b6?style=for-the-badge&logo=Netlify&labelColor=2b2b2b" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=for-the-badge&logo=prettier&labelColor=2b2b2b" />
   <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=for-the-badge&logo=npm&labelColor=2b2b2b" />
+  <img alt="Contentful" src="https://img.shields.io/badge/-Contentful-2478CC?style=for-the-badge&logoColor=ffffff&logo=contentful&labelColor=2b2b2b" />
 </div>
+
 
 ## Contributing
 
