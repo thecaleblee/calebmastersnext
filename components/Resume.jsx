@@ -23,6 +23,7 @@ export default function Resume(props) {
     summary = "",
     experienceTitle = "",
     experience = [],
+    references = "",
   } = content;
 
   return (
