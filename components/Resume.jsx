@@ -81,7 +81,7 @@ export default function Resume(props) {
           )}
         </section> */}
       </article>
-      {children}
+      <p>{references}</p>
     </Container>
   );
 }
