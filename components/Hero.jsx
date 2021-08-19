@@ -2,7 +2,18 @@ import React from "react";
 import Href from "./Href";
 
 export default function Hero(props) {
-  const { id, tagline, emHeading, heading, talkingPoints } = props;
+  const {
+    id,
+    tagline,
+    emHeading,
+    heading,
+    talkingPoints,
+    linkText,
+    linkHref,
+    linkImgUrl,
+    linkAriaLabel,
+    linkClass,
+  } = props;
 
   return (
     <>
@@ -17,18 +28,13 @@ export default function Hero(props) {
           )}
         </ul>
         <Href
-          href={`https://github.com/thecaleblee/calebmastersnext`}
-          al={`This websites code on Github`}
-          addClass={`github`}
+          href={linkHref}
+          al={linkAriaLabel}
+          addClass={linkClass}
           rel={`noopener`}
         >
-          <img
-            src="https://res.cloudinary.com/calebmastersdev/image/upload/v1628621456/cmdev/github_e5vqv0.svg"
-            alt="Caleb Masters Dev Github"
-            width="24"
-            height="24"
-          />
-          View Code on Github
+          <img src={linkImgUrl} alt={linkAriaLabel} width="24" height="24" />
+          {linkText}
         </Href>
       </section>
     </>

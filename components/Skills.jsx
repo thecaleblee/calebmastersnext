@@ -35,8 +35,8 @@ export default function Skills(props) {
       <article aria-label={al}>
         {React.Children.toArray(
           skills.map((skill) => {
-            const { category, skills: bars } = skill;
-
+            const { category, skillsCollection } = skill;
+            const bars = skillsCollection.skillSet;
             return (
               <>
                 <h3>{category}</h3>
