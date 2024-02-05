@@ -49,7 +49,7 @@ let bigQuery = `
       id
       heading
       subheading
-      skillSetCollection(limit: 3) {
+      skillSetCollection(limit: 4) {
         items {
           category
           skillsCollection(limit: 11) {
