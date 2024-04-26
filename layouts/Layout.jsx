@@ -10,7 +10,7 @@ export default function Layout(props) {
 
   return (
     <>
-      <Hat title={'Caleb Masters - Full Stack Engineer Portfolio'} currentPage={currentPage} />
+      <Hat title={'Caleb Masters - Full-Stack Engineer Portfolio'} currentPage={currentPage} />
       <Nav currentPage={currentPage} />
       {children}
       <Footer currentPage={currentPage} />
