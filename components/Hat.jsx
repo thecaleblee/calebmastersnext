@@ -36,20 +36,20 @@ export default function Hat(props = {}) {
       <meta name="robots" content="index, follow" />
       <meta
         name="description"
-        content="Engineer Portfolio for Caleb Masters. Front-End Engineer, UX promotor, and Hobby Collector"
+        content="Engineer Portfolio for Caleb Masters. Full-Stack Engineer, UX promotor, and Hobby Collector"
       />
       <meta
         property="og:title"
-        content="Caleb Masters - Front-End Engineer Portfolio "
+        content="Caleb Masters - Full-Stack Engineer Portfolio "
       />
       <meta
         property="og:site_name"
-        content="Caleb Masters - Front-End Engineer Portfolio "
+        content="Caleb Masters - Full-Stack Engineer Portfolio "
       />
       <meta property="og:url" content="calebmasters.dev" />
       <meta
         property="og:description"
-        content="Engineer Portfolio for Caleb Masters. Front-End Engineer, UX promotor, and Hobby Collector"
+        content="Engineer Portfolio for Caleb Masters. Full-Stack Engineer, UX promotor, and Hobby Collector"
       />
       <meta property="og:type" content="website" />
       <meta
